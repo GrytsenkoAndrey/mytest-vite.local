@@ -6,7 +6,7 @@
 
         <title>Laravel</title>
 
-        @vite('resources/css/app.css')
+        @vite('resources/sass/app.scss')
     </head>
     <body class="container mx-auto">
     <h1 class="text-3xl text-pink-900 hover:text-amber-700">Hello</h1>

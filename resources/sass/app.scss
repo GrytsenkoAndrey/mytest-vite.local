@@ -6,3 +6,14 @@
 
 // Bootstrap
 @import 'bootstrap/scss/bootstrap';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    h1 {
+        text-decoration: underline;
+        text-underline-offset: .5em;
+    }
+}
